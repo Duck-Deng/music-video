@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-hans-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/mui-player.min.css"/>
+    <!-- 引入基础脚本 mui-player.min.js -->
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="mui-player"></div>
+    <video controls>
+        <source src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9kamoyMy1teS5zaGFyZXBvaW50LmNvbS86djovZy9wZXJzb25hbC9kXzJwYWlxaXlpX3h5ei9FYTgtSTJfTzlQSk5pR2pFcXdlcVBja0JFOW5EX1hKd3ZrR1VpVXhNOXRlVFhBP2U9d0VwQlhG.mp4" type="video/mp4">
+    </video>
+    <script type="text/javascript" src="js/mui-player.min.js"></script>
+    <script>
+        var mp = new MuiPlayer({
+                container:'#mui-player',
+                    title:'标题',
+                        src:'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9kamoyMy1teS5zaGFyZXBvaW50LmNvbS86djovZy9wZXJzb25hbC9kXzJwYWlxaXlpX3h5ei9FYTgtSTJfTzlQSk5pR2pFcXdlcVBja0JFOW5EX1hKd3ZrR1VpVXhNOXRlVFhBP2U9d0VwQlhG.mp4',
+        })
+    </script>
+</body>
+</html>
